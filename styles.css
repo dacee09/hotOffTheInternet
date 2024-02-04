@@ -1,0 +1,48 @@
+.headerBlock{
+    height: 100px;
+    background-color: pink;
+}
+
+#portrait {
+    /* position:relative;
+    float: center;
+    margin: 0px 15px 15px 0px; */
+    display: flex;
+    justify-content: center;
+}
+
+#headerLinks ul{
+    list-style-type: none; /*Makes dot from lists go away*/
+    /* text-align:right; */
+    /* gap: 5px; */
+    position: relative;
+    margin: 8px 0px 0px 0px;
+}
+
+body {
+    background-image: url("bgdesert.jpg");
+}
+
+li{
+    display:inline-block; 
+}
+
+.sidebar{
+    background-color: palevioletred;
+    text-align: center;
+    /* position:fixed; */
+    height:100px;
+    width: 100px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+
+}
+
+footer{
+    background-color: pink;
+    height: 100px;
+}
